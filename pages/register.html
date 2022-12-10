@@ -1,0 +1,62 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="../styles/style.css" />
+      <link rel="stylesheet" href="../styles/registerform.css" />
+      <title>Register</title>
+   </head>
+   <body>
+      <section class="container">
+         <img src="../assets/register.png" role="presentation" />
+
+         <div>
+            <h1>Create Account</h1>
+            <p>Go ahead and sign up, let everyone know how awesome you are!</p>
+            <form id="register-form">
+               <div class="input-wrapper">
+                  <input
+                     type="text"
+                     name="username"
+                     placeholder="Username"
+                     required
+                  />
+                  <img src="../assets/username.svg" alt="" />
+               </div>
+               <div class="input-wrapper">
+                  <input
+                     type="email"
+                     name="email"
+                     placeholder="Email"
+                     required
+                  />
+                  <img src="../assets/email.svg" alt="" />
+               </div>
+               <div class="input-wrapper">
+                  <input
+                     type="password"
+                     name="password"
+                     placeholder="Password"
+                     required
+                  />
+                  <img src="../assets/password.svg" alt="" />
+               </div>
+               <div class="input-wrapper">
+                  <input
+                     type="password"
+                     name="password_confirmation"
+                     placeholder="Confirm Password"
+                     required
+                  />
+                  <img src="../assets/password.svg" alt="" />
+               </div>
+            </form>
+            <button onclick="submit()">Create Account</button>
+            <ul id="errors"></ul>
+         </div>
+      </section>
+
+      <script src="../scripts/script.js"></script>
+   </body>
+</html>

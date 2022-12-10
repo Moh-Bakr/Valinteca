@@ -1,0 +1,27 @@
+input {
+   border: none;
+   border-radius: 10px;
+   padding: 20px 40px;
+   margin: 5px 0px;
+   font-size: 1rem;
+   width: 100%;
+}
+
+.user-email {
+   text-decoration-line: underline;
+   color: #1f1249;
+}
+
+.input-wrapper {
+   position: relative;
+}
+
+.input-wrapper img {
+   position: absolute;
+   top: 50%;
+   left: 10px;
+   transform: translateY(-50%);
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
