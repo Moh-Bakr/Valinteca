@@ -1,15 +1,18 @@
+# Website URL
+```
+https://valinteca1.netlify.app/
+```
 # Application Contains 3 Pages
 
 
-### - the first page (welcome screen), the “get started” button should open the “register page”
+### the first page (welcome screen), the “get started” button should open the “register page”
 <hr/>
 
 ![Alt text](README/welcome.png?raw=true)
 ![Alt text](README/welcome-mobile.png?raw=true)
 <hr/>
 
-### - In the second page (register page), user is asked to enter some data such as username, email,
-password, you need to validate the form
+### In the second page (register page), user is asked to enter some data such as username, email, password, you need to validate the form
 
 ![Alt text](README/register.png?raw=true)
 
